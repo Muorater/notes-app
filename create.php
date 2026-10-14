@@ -1,5 +1,4 @@
-
-<?php
+ <?php
 require_once 'db.php';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
@@ -124,7 +123,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             cursor: pointer;
         }
 
-        .save-btn {
+        .create-btn {
             background: #1a73e8;
             color: #ffffff;
             border: none;
@@ -133,7 +132,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             cursor: pointer;
         }
 
-        .save-btn:hover {
+        .create-btn:hover {
             background: #1557b0;
         }
 
@@ -224,8 +223,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 ></button>
             </div>
 
-            <button type="submit" class="save-btn">
-                Save
+            <button type="submit" class="create-btn">
+                Create
             </button>
 
         </footer>
